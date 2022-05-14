@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+p {
+  margin: 0 0 5px;
+}
+
 .btn {
   padding: 0 15px;
   min-width: 200px;
@@ -59,6 +63,14 @@ body {
   width: 20%;
 }
 
+.header__logo {
+  display: inline-block;
+}
+
+.header__logo img{
+  height: 65px;
+}
+
 .nav {
   display: flex;
 }
@@ -108,10 +120,15 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
+  transition: color .2s ease;
 }
 
 .header__lng-link:last-child {
   margin-right: 0;
+}
+
+.header__lng-link:hover {
+  color: #fff;
 }
 
 .header__lng-link.active {
@@ -160,3 +177,39 @@ body {
   color: #ffffff;
 }
 /***************INTRO END*******************/
+
+/***************INFO START*******************/
+.info {
+  transform: translateY(-50%);
+}
+.info-wrapper {
+  display: flex;
+  margin: 0 -10px;
+}
+.info__block {
+  width: 33.33%;
+  padding: 0 10px;
+
+}
+.info__item {
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  padding: 40px 40px 30px;
+}
+.info__img {
+  margin-bottom: 20px;
+}
+.info__img img {
+  height: 30px;
+}
+.info__title {
+  font-size: 18px;
+  letter-spacing: 0.15em;
+  margin-bottom: 10px;
+}
+.info__text {
+  font-size: 18px;
+  color: #B7B7B7;;
+
+}
+/***************INFO END*******************/
