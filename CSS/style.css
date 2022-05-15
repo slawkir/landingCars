@@ -186,15 +186,7 @@ body {
 .info {
   transform: translateY(-50%);
 }
-.info-wrapper {
-  display: flex;
-  margin: 0 -10px;
-}
-.info__block {
-  width: 33.33%;
-  padding: 0 10px;
 
-}
 .info__item {
   background-color: #fff;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
