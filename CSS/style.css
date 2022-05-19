@@ -405,3 +405,52 @@ body {
 }
 
 /***************PROCESS END*******************/
+
+
+/***************CONTACTS START*******************/
+.contacts {
+  padding: 100px 0;
+  background-color: #171616;
+}
+.container {
+}
+.block__title {
+}
+.contacts__form {
+  max-width: 440px;
+}
+.form__row {
+  display: flex;
+  margin: 0 -20px;
+}
+.form__group {
+  flex: 1;
+  padding: 0 20px;
+  position: relative;
+}
+.input {
+  width: 100%;
+  padding: 9px 0;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: 15px;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+}
+
+.input:focus + .label {
+  transform: translateY(-10px);
+}
+
+.label {
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  pointer-events: none;
+
+}
+/***************CONTACTS END*******************/
